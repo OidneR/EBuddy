@@ -1,0 +1,9 @@
+//
+//  Development.xcconfig
+//  EBuddy
+//
+//  Created by Eldrick Loe on 15/12/24.
+//
+
+BASE_URL = https://dev-api.example.com
+FIREBASE_API_KEY = <your-dev-firebase-api-key>
