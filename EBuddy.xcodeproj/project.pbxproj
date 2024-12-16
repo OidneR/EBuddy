@@ -17,6 +17,8 @@
 		E7FC8EEA2D0DFAA500DD1BEC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8EE42D0DFAA500DD1BEC /* FirebaseFirestore */; };
 		E7FC8EEB2D0DFAA500DD1BEC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8EE12D0DFAA500DD1BEC /* FirebaseAuth */; };
 		E7FC8EFF2D0FD59700DD1BEC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8EFE2D0FD59700DD1BEC /* FirebaseFirestore */; };
+		E7FC8F072D10003B00DD1BEC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8F062D10003B00DD1BEC /* FirebaseStorage */; };
+		E7FC8F092D10004100DD1BEC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8F082D10004100DD1BEC /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,7 @@
 				E7FC8EC32D0DF72C00DD1BEC /* FirebaseCore in Frameworks */,
 				E7FC8EFF2D0FD59700DD1BEC /* FirebaseFirestore in Frameworks */,
 				E7FC8EC12D0DF72C00DD1BEC /* FirebaseAuth in Frameworks */,
+				E7FC8F072D10003B00DD1BEC /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +73,7 @@
 				E7FC8EE92D0DFAA500DD1BEC /* FirebaseCore in Frameworks */,
 				E7FC8EEA2D0DFAA500DD1BEC /* FirebaseFirestore in Frameworks */,
 				E7FC8EEB2D0DFAA500DD1BEC /* FirebaseAuth in Frameworks */,
+				E7FC8F092D10004100DD1BEC /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +130,7 @@
 				E7FC8EC22D0DF72C00DD1BEC /* FirebaseCore */,
 				E7FC8EC42D0DF72C00DD1BEC /* FirebaseCrashlytics */,
 				E7FC8EFE2D0FD59700DD1BEC /* FirebaseFirestore */,
+				E7FC8F062D10003B00DD1BEC /* FirebaseStorage */,
 			);
 			productName = EBuddy;
 			productReference = E7FC8EAA2D0DE87600DD1BEC /* EBuddy(Development).app */;
@@ -153,6 +158,7 @@
 				E7FC8EE22D0DFAA500DD1BEC /* FirebaseCore */,
 				E7FC8EE32D0DFAA500DD1BEC /* FirebaseCrashlytics */,
 				E7FC8EE42D0DFAA500DD1BEC /* FirebaseFirestore */,
+				E7FC8F082D10004100DD1BEC /* FirebaseStorage */,
 			);
 			productName = EBuddy;
 			productReference = E7FC8EF02D0DFAA500DD1BEC /* EBuddy(Staging).app */;
@@ -452,6 +458,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E7FC8EBD2D0DF60F00DD1BEC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		E7FC8F062D10003B00DD1BEC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7FC8EBD2D0DF60F00DD1BEC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E7FC8F082D10004100DD1BEC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7FC8EBD2D0DF60F00DD1BEC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
