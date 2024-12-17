@@ -19,36 +19,42 @@
 		E7FC8EFF2D0FD59700DD1BEC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8EFE2D0FD59700DD1BEC /* FirebaseFirestore */; };
 		E7FC8F072D10003B00DD1BEC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8F062D10003B00DD1BEC /* FirebaseStorage */; };
 		E7FC8F092D10004100DD1BEC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E7FC8F082D10004100DD1BEC /* FirebaseStorage */; };
+		E7FC8F1C2D11A0E000DD1BEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F112D11A0E000DD1BEC /* User.swift */; };
+		E7FC8F1E2D11A0E000DD1BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F102D11A0E000DD1BEC /* ContentView.swift */; };
+		E7FC8F1F2D11A0E000DD1BEC /* EBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F162D11A0E000DD1BEC /* EBuddyApp.swift */; };
+		E7FC8F202D11A0E000DD1BEC /* UserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F192D11A0E000DD1BEC /* UserHelper.swift */; };
+		E7FC8F212D11A0E000DD1BEC /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F182D11A0E000DD1BEC /* Staging.xcconfig */; };
+		E7FC8F232D11A0E000DD1BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F142D11A0E000DD1BEC /* Assets.xcassets */; };
+		E7FC8F242D11A0E000DD1BEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F172D11A0E000DD1BEC /* GoogleService-Info.plist */; };
+		E7FC8F252D11A0E000DD1BEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F112D11A0E000DD1BEC /* User.swift */; };
+		E7FC8F272D11A0E000DD1BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F102D11A0E000DD1BEC /* ContentView.swift */; };
+		E7FC8F282D11A0E000DD1BEC /* EBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F162D11A0E000DD1BEC /* EBuddyApp.swift */; };
+		E7FC8F292D11A0E000DD1BEC /* UserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F192D11A0E000DD1BEC /* UserHelper.swift */; };
+		E7FC8F2A2D11A0E000DD1BEC /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F182D11A0E000DD1BEC /* Staging.xcconfig */; };
+		E7FC8F2C2D11A0E000DD1BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F142D11A0E000DD1BEC /* Assets.xcassets */; };
+		E7FC8F2D2D11A0E000DD1BEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7FC8F172D11A0E000DD1BEC /* GoogleService-Info.plist */; };
+		E7FC8F302D11E20A00DD1BEC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F2F2D11E20A00DD1BEC /* ContentModel.swift */; };
+		E7FC8F312D11E20A00DD1BEC /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F2F2D11E20A00DD1BEC /* ContentModel.swift */; };
+		E7FC8F332D11E21E00DD1BEC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F322D11E21E00DD1BEC /* ContentViewModel.swift */; };
+		E7FC8F342D11E21E00DD1BEC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F322D11E21E00DD1BEC /* ContentViewModel.swift */; };
+		E7FC8F372D11E23200DD1BEC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F362D11E23200DD1BEC /* CardView.swift */; };
+		E7FC8F382D11E23200DD1BEC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC8F362D11E23200DD1BEC /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7FC8EAA2D0DE87600DD1BEC /* EBuddy(Development).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EBuddy(Development).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FC8EF02D0DFAA500DD1BEC /* EBuddy(Staging).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EBuddy(Staging).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FC8F102D11A0E000DD1BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7FC8F112D11A0E000DD1BEC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E7FC8F142D11A0E000DD1BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7FC8F162D11A0E000DD1BEC /* EBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBuddyApp.swift; sourceTree = "<group>"; };
+		E7FC8F172D11A0E000DD1BEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7FC8F182D11A0E000DD1BEC /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		E7FC8F192D11A0E000DD1BEC /* UserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHelper.swift; sourceTree = "<group>"; };
+		E7FC8F2F2D11E20A00DD1BEC /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		E7FC8F322D11E21E00DD1BEC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E7FC8F362D11E23200DD1BEC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E7FC8EF12D0DFAA500DD1BEC /* Exceptions for "EBuddy" folder in "EBuddy(Staging)" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Assets.xcassets,
-				Development.xcconfig,
-				"Preview Content/Preview Assets.xcassets",
-				Staging.xcconfig,
-			);
-			target = E7FC8EDE2D0DFAA500DD1BEC /* EBuddy(Staging) */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E7FC8EAC2D0DE87600DD1BEC /* EBuddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E7FC8EF12D0DFAA500DD1BEC /* Exceptions for "EBuddy" folder in "EBuddy(Staging)" target */,
-			);
-			path = EBuddy;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E7FC8EA72D0DE87600DD1BEC /* Frameworks */ = {
@@ -83,9 +89,9 @@
 		E7FC8EA12D0DE87600DD1BEC = {
 			isa = PBXGroup;
 			children = (
-				E7FC8EAC2D0DE87600DD1BEC /* EBuddy */,
 				E7FC8EFD2D0FD58700DD1BEC /* Frameworks */,
 				E7FC8EAB2D0DE87600DD1BEC /* Products */,
+				E7FC8F1B2D11A0E000DD1BEC /* EBuddy */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +111,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E7FC8F122D11A0E000DD1BEC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7FC8F352D11E22C00DD1BEC /* Card */,
+				E7FC8F102D11A0E000DD1BEC /* ContentView.swift */,
+				E7FC8F2F2D11E20A00DD1BEC /* ContentModel.swift */,
+				E7FC8F322D11E21E00DD1BEC /* ContentViewModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E7FC8F132D11A0E000DD1BEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7FC8F1B2D11A0E000DD1BEC /* EBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				E7FC8F2E2D11E1E800DD1BEC /* User */,
+				E7FC8F122D11A0E000DD1BEC /* Content */,
+				E7FC8F132D11A0E000DD1BEC /* Preview Content */,
+				E7FC8F142D11A0E000DD1BEC /* Assets.xcassets */,
+				E7FC8F162D11A0E000DD1BEC /* EBuddyApp.swift */,
+				E7FC8F172D11A0E000DD1BEC /* GoogleService-Info.plist */,
+				E7FC8F182D11A0E000DD1BEC /* Staging.xcconfig */,
+			);
+			path = EBuddy;
+			sourceTree = "<group>";
+		};
+		E7FC8F2E2D11E1E800DD1BEC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E7FC8F112D11A0E000DD1BEC /* User.swift */,
+				E7FC8F192D11A0E000DD1BEC /* UserHelper.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E7FC8F352D11E22C00DD1BEC /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				E7FC8F362D11E23200DD1BEC /* CardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +174,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E7FC8EAC2D0DE87600DD1BEC /* EBuddy */,
 			);
 			name = "EBuddy(Development)";
 			packageProductDependencies = (
@@ -147,9 +199,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E7FC8EAC2D0DE87600DD1BEC /* EBuddy */,
 			);
 			name = "EBuddy(Staging)";
 			packageProductDependencies = (
@@ -207,6 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FC8F2A2D11A0E000DD1BEC /* Staging.xcconfig in Resources */,
+				E7FC8F2C2D11A0E000DD1BEC /* Assets.xcassets in Resources */,
+				E7FC8F2D2D11A0E000DD1BEC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FC8F212D11A0E000DD1BEC /* Staging.xcconfig in Resources */,
+				E7FC8F232D11A0E000DD1BEC /* Assets.xcassets in Resources */,
+				E7FC8F242D11A0E000DD1BEC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FC8F382D11E23200DD1BEC /* CardView.swift in Sources */,
+				E7FC8F252D11A0E000DD1BEC /* User.swift in Sources */,
+				E7FC8F272D11A0E000DD1BEC /* ContentView.swift in Sources */,
+				E7FC8F342D11E21E00DD1BEC /* ContentViewModel.swift in Sources */,
+				E7FC8F312D11E20A00DD1BEC /* ContentModel.swift in Sources */,
+				E7FC8F282D11A0E000DD1BEC /* EBuddyApp.swift in Sources */,
+				E7FC8F292D11A0E000DD1BEC /* UserHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FC8F372D11E23200DD1BEC /* CardView.swift in Sources */,
+				E7FC8F1C2D11A0E000DD1BEC /* User.swift in Sources */,
+				E7FC8F1E2D11A0E000DD1BEC /* ContentView.swift in Sources */,
+				E7FC8F332D11E21E00DD1BEC /* ContentViewModel.swift in Sources */,
+				E7FC8F302D11E20A00DD1BEC /* ContentModel.swift in Sources */,
+				E7FC8F1F2D11A0E000DD1BEC /* EBuddyApp.swift in Sources */,
+				E7FC8F202D11A0E000DD1BEC /* UserHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +371,6 @@
 		};
 		E7FC8ED42D0DF98C00DD1BEC /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = E7FC8EAC2D0DE87600DD1BEC /* EBuddy */;
-			baseConfigurationReferenceRelativePath = Development.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,8 +399,6 @@
 		};
 		E7FC8EEE2D0DFAA500DD1BEC /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = E7FC8EAC2D0DE87600DD1BEC /* EBuddy */;
-			baseConfigurationReferenceRelativePath = Staging.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
